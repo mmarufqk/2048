@@ -1,4 +1,3 @@
-/* Reset and general styling */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -28,13 +27,12 @@ p {
     margin: 15px;
 }
 
-/* Board styling */
 #board {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Adjusted to be responsive */
+    grid-template-columns: repeat(4, 1fr); 
     grid-gap: 10px;
     justify-content: center;
-    max-width: 440px; /* Limit max width for larger screens */
+    max-width: 440px; 
     margin: 0 auto;
     background-color: #bbada0;
     padding: 10px;
@@ -49,12 +47,11 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px; /* Adjusted font size for smaller screens */
+    font-size: 40px; 
     font-weight: bold;
     color: #776e65;
 }
 
-/* Responsive tile sizes */
 @media (max-width: 600px) {
     .tile {
         width: 70px;

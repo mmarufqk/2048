@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const size = 4;
     const tiles = [];
 
-    // Initialize board
     for (let i = 0; i < size * size; i++) {
         const tile = document.createElement('div');
         tile.classList.add('tile');
@@ -14,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
         tiles.push(tile);
     }
 
-    // Add two initial tiles
     addRandomTile();
     addRandomTile();
     updateBoard();
